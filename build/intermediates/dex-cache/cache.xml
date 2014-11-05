@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/rnguyen/AndroidStudioProjects/FriendlyForecast/app/build/intermediates/pre-dexed/debug/gson-2.2.4-eccf1d7f893f88ac5255df1725784760402a81ac.jar"
+        jar="/Users/rnguyen/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="/Users/rnguyen/AndroidStudioProjects/FriendlyForecast/app/build/intermediates/pre-dexed/debug/retrofit-1.5.0-8a5e105a762afb1056a9435af7c29b3038d48d74.jar"
+        jar="/Users/rnguyen/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.5.0/54271c5c7a4dfa1c7cd53d0b10956ea35d32abb0/retrofit-1.5.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="54271c5c7a4dfa1c7cd53d0b10956ea35d32abb0"/>
+
+</pre-dex-items>

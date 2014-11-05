@@ -71,17 +71,17 @@ public class MainActivity extends Activity {
         mUpdateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                mDataSource.updateTemperature(100);
+                mDataSource.updateTemperature(100);
             }
         });
 
         mDeleteButton = (Button)findViewById(R.id.deleteButton);
-//        mDeleteButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                mDataSource.deleteAll();
-//            }
-//        });
+        mDeleteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDataSource.deleteAll();
+            }
+        });
 
         TextView photoCredit = (TextView)findViewById(R.id.textView);
         photoCredit.setOnClickListener(new View.OnClickListener() {

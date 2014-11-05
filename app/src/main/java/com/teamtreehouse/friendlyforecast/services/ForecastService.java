@@ -31,7 +31,7 @@ public class ForecastService {
                 .build();
 
         WeatherService service = restAdapter.create(WeatherService.class);
-        service.getForecastAsync("INSERT YOUR API KEY HERE", "28.4158", "-81.2989", callback);
+        service.getForecastAsync("7e20889a9417a974d8e00cf3748a36e7", "28.4158", "-81.2989", callback);
     }
 
 }

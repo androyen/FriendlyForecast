@@ -39,8 +39,8 @@ public class ViewForecastActivity extends ListActivity {
         super.onResume();
         mDataSource.open();
 
-        Cursor cursor = mDataSource.selectAllTemperatures();
-        updateList(cursor);
+////        Cursor cursor = mDataSource.selectAllTemperatures();
+//        updateList(cursor);
     }
 
     @Override
@@ -69,8 +69,8 @@ public class ViewForecastActivity extends ListActivity {
     }
 
     protected void filterTemperatures(String minTemp) {
-        Cursor cursor = mDataSource.selectTempsGreaterThan(minTemp);
-        updateList(cursor);
+//        Cursor cursor = mDataSource.selectTempsGreaterThan(minTemp);
+//        updateList(cursor);
     }
 
     protected void configureActionBar() {

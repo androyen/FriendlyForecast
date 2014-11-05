@@ -47,6 +47,7 @@ public class MainActivity extends Activity {
 
         mDataSource = new ForecastDataSource(MainActivity.this);
 
+
         mHighTextView = (TextView)findViewById(R.id.textView2);
         mLowTextView = (TextView)findViewById(R.id.textView3);
 
@@ -70,17 +71,17 @@ public class MainActivity extends Activity {
         mUpdateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDataSource.updateTemperature(100);
+//                mDataSource.updateTemperature(100);
             }
         });
 
         mDeleteButton = (Button)findViewById(R.id.deleteButton);
-        mDeleteButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mDataSource.deleteAll();
-            }
-        });
+//        mDeleteButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                mDataSource.deleteAll();
+//            }
+//        });
 
         TextView photoCredit = (TextView)findViewById(R.id.textView);
         photoCredit.setOnClickListener(new View.OnClickListener() {
@@ -118,7 +119,7 @@ public class MainActivity extends Activity {
                 Log.v(TAG, "Temp " + i + ": " + mTemperatures[i]);
             }
 
-            mDataSource.insertForecast(forecast);
+//            mDataSource.insertForecast(forecast);
             updateHighAndLow();
             enableOtherButtons();
         }
